@@ -247,7 +247,7 @@
           "symbols": ["AAPL", "MSFT", "NVDA", "GOOGL", "AMZN", "META", "TSLA","ORCL","SPCX"]
         }
       ]
-    }
+    },
     "ossinsight": {
       "enabled": false,
       "period": "past_24_hours",
