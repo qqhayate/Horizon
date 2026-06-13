@@ -26,6 +26,9 @@ jobs:
       - name: Install dependencies
         run: uv sync
 
+      - name: Install openbb
+        run: "uv pip install --only-binary=:all: openbb openbb-benzinga"
+
       - name: Prepare GitHub Actions config
         run: cp data/config.github.json data/config.json
 
